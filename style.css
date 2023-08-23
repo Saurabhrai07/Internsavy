@@ -6,10 +6,10 @@ body {
   }
   
   .container {
-    max-width: 450px;
-    margin: 20px auto;
+    max-width: 400px;
+    margin: 0 auto;
     padding: 20px;
-    border: 1px black solid;
+    border: 1px solid #ccc;
     border-radius: 5px;
   }
   
@@ -19,25 +19,21 @@ body {
   
   .form-group {
     margin-bottom: 20px;
-    margin-top: 20px;
-
   }
   
   label {
     display: block;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   
   input[type="text"],
   input[type="email"],
-  input[type="message"],
   textarea {
-    width: 98%;
-    margin-right: 5px;
-    padding: 8px;
-    border: 1px black solid;
-    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
   button {
@@ -47,11 +43,10 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 180px;
   }
   
   button:hover {
-    background-color: black;
+    background-color: #45a049;
   }
   
   button:focus {
